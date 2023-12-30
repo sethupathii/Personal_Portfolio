@@ -4,7 +4,7 @@
     "imageSrc": "projects/todo.jpeg",
     "description": "Todo App  is a project made to each user can store data, delete data,read data and update data.",
     "skills": ["React", "Express", "Node","MongoDB","Css"],
-    "demo": "https://www.example.com",
+    "demo": "https://658fe4984abcd650c8ff6f4d--comforting-gingersnap-f5c7df.netlify.app/",
     "source": "https://www.github.com"
   },
   {

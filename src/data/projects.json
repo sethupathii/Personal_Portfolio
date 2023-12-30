@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Todo App with Authentication",
+    "imageSrc": "projects/todo.jpeg",
+    "description": "Todo App  is a project made to each user can store data, delete data,read data and update data.",
+    "skills": ["React", "Express", "Node","MongoDB","Css"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Online Code Editor",
+    "imageSrc": "projects/downloads.png",
+    "description":"Online code editor is a web-based platform that allows users to write, edit, compile, and execute code directly within a browser environment.",
+    "skills": ["html","Css","Javascript"],
+    "demo": "https://sethupathii.github.io/demo/Online%20Code%20Editor/",
+    "source": "https://github.com/sethupathii/demo"
+  },
+  {
+    "title": "Online Image Searcher",
+    "imageSrc": "projects/search.jpg",
+    "description": "In this project i used  Unsplash API it is a web-based application that allows users to search for and display images from the Unsplash database",
+    "skills": ["Html","Css","Javascript"],
+    "demo": "https://sethupathii.github.io/ImageSearcher/Image/Image-Searcher/",
+    "source": "https://github.com/sethupathii/ImageSearcher/tree/main/Image/Image-Searcher"
+  }
+]

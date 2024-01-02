@@ -14,11 +14,11 @@ const About = () => {
                     <meta property="og:title" content="Sethuyadav" />
                     <meta property="og:description" content="About sethu" />
                     <meta property="og:image" content="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" />
-                    <meta property="og:type" content="website" />
+                    {/* <meta property="og:type" content="website" />
                     <meta property="og:image:type" content="image/jpg" />
                     <meta property="og:image:width" content="300" />
                     <meta property="og:image:height" content="300" />
-                    <meta property="og:url" content="https://main--bucolic-crisp-4bfe2d.netlify.app/#about" />
+                    <meta property="og:url" content="https://main--bucolic-crisp-4bfe2d.netlify.app/#about" /> */}
                 </Helmet>
                 <h2 className={style.title}>About</h2>
                 <div className={style.content}>

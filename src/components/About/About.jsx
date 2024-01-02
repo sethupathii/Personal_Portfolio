@@ -17,7 +17,7 @@ const About = () => {
                 <meta property="og:image:type" content="image/jpg" />
                 <meta property="og:image:width" content="300" />
                 <meta property="og:image:height" content="300" />
-                <meta property="og:url" content=" https://main--bucolic-crisp-4bfe2d.netlify.app/" />
+                <meta property="og:url" content="https://main--bucolic-crisp-4bfe2d.netlify.app/#about" />
             </Helmet>
             <h2 className={style.title}>About</h2>
             <div className={style.content}>

@@ -14,8 +14,7 @@ function App() {
     <Router>
       <div className={style.App}>
         <Helmet>
-          {/* Set default OG tags */}
-          <title>SethuPathi M - Home</title>
+          <title>Home</title>
           <meta property="og:title" content="SethuPathi M - Home" />
           <meta property="og:description" content="SEthu" />
           <meta property="og:image" content="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" />
@@ -24,8 +23,6 @@ function App() {
           <meta property="og:image:width" content="300" />
           <meta property="og:image:height" content="300" />
           <meta property="og:url" content="https://main--bucolic-crisp-4bfe2d.netlify.app/#about" />
-          {/* Other meta tags */}
-          {/* ... */}
         </Helmet>
         <Routes>
           <Route path="/" element={<Home />} />

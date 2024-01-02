@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet'
 
 const About = () => {
     return (
-        <section className={style.container} id='about'>
+        <div>
             <Helmet>
                 {/* <meta name="description" content="About-Page" /> */}
                 <meta property="og:site_name" content="Sethu Portfolio About page" />
@@ -19,40 +19,42 @@ const About = () => {
                 <meta property="og:image:height" content="300" />
                 <meta property="og:url" content="https://main--bucolic-crisp-4bfe2d.netlify.app/#about" />
             </Helmet>
-            <h2 className={style.title}>About</h2>
-            <div className={style.content}>
-                <img src={getImageUrl("about/aboutImage.png")} alt=" sitting with lap" className={style.aboutImage} />
-                <ul className={style.aboutItems}>
-                    <li className={style.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="curser" />
-                        <div className={style.aboutItemText}>
-                            <h3>frontend developer</h3>
-                            <p>I'm a frontend developer and building responsive
-                                and optimized sites.</p>
-                        </div>
-                    </li>
-                    <li className={style.aboutItem}>
-                        <img src={getImageUrl("about/serverIcon.png")} alt="serverIcon" />
-                        <div className={style.aboutItemText}>
-                            <h3>Backend Developer</h3>
-                            <p>
-                                I have experience developing fast and optimised back-end systems
-                                and APIs.
-                            </p>
-                        </div>
-                    </li>
-                    <li className={style.aboutItem}>
-                        <img src={getImageUrl("about/uiIcon.png")} alt="developer" />
-                        <div className={style.aboutItemText}>
-                            <h3>MERN Stack Developer</h3>
-                            <p>
-                                I'm a mern stack developer and building both frontend and backend responsive projects.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+            <section className={style.container} id='about'>
+                <h2 className={style.title}>About</h2>
+                <div className={style.content}>
+                    <img src={getImageUrl("about/aboutImage.png")} alt=" sitting with lap" className={style.aboutImage} />
+                    <ul className={style.aboutItems}>
+                        <li className={style.aboutItem}>
+                            <img src={getImageUrl("about/cursorIcon.png")} alt="curser" />
+                            <div className={style.aboutItemText}>
+                                <h3>frontend developer</h3>
+                                <p>I'm a frontend developer and building responsive
+                                    and optimized sites.</p>
+                            </div>
+                        </li>
+                        <li className={style.aboutItem}>
+                            <img src={getImageUrl("about/serverIcon.png")} alt="serverIcon" />
+                            <div className={style.aboutItemText}>
+                                <h3>Backend Developer</h3>
+                                <p>
+                                    I have experience developing fast and optimised back-end systems
+                                    and APIs.
+                                </p>
+                            </div>
+                        </li>
+                        <li className={style.aboutItem}>
+                            <img src={getImageUrl("about/uiIcon.png")} alt="developer" />
+                            <div className={style.aboutItemText}>
+                                <h3>MERN Stack Developer</h3>
+                                <p>
+                                    I'm a mern stack developer and building both frontend and backend responsive projects.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     )
 }
 

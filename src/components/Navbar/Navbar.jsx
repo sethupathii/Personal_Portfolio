@@ -1,37 +1,50 @@
-import React, { useState } from 'react'
-import navbar from "./Navbar.module.css"
-
-import { getImageUrl } from '../../utils'
-import { Helmet } from 'react-helmet'
+import React from 'react';
+import navbar from './Navbar.module.css';
+import { getImageUrl } from '../../utils';
+import { Helmet } from 'react-helmet';
 
 const Navbar = () => {
+  const handleTitleChange = (title) => {
+    document.title = `S - ${title}`;
+  };
 
-    const [menuOpen, setMenuOpen] = useState(false);
+  return (
+    <nav className={navbar.navbar}>
+      <a href='/' className={navbar.title}>
+        Portfolio
+      </a>
+      <div className={navbar.menu}>
+        <img
+          className={navbar.menuBtn}
+          src={getImageUrl('nav/menuIcon.png')}
+          alt='menuBtn'
+          onClick={() => {}}
+        />
+        <ul className={`${navbar.menuItems}`}>
+          <li>
+            <a href='#about' onClick={() => handleTitleChange('About')}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href='#experience' onClick={() => handleTitleChange('Skills')}>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href='#projects' onClick={() => handleTitleChange('Projects')}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href='#contact' onClick={() => handleTitleChange('Contact')}>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
-    return (
-        <nav className={navbar.navbar}>
-            <a href='/' className={navbar.title}>Portfolio</a>
-            <div className={navbar.menu}>
-                <img className={navbar.menuBtn} src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")} alt='menuBtn' onClick={() => setMenuOpen(!menuOpen)} />
-                <ul className={`${navbar.menuItems} ${menuOpen && navbar.menuOpen}`} onClick={() => setMenuOpen(false)}>
-                    <li>
-                        <a href='#about'>About</a>
-                    </li>
-                    <li>
-                        <a href='#experience'>Skills</a>
-                    </li>
-                    <li>
-                        <a href='#projects'>Projects</a>
-                    </li>
-                    <li>
-                        <a href='#contact'>contact</a>
-                    </li>
-                </ul>
-                {/* <h1>ul</h1> */}
-            </div>
-        </nav>
-
-    )
-}
-
-export default Navbar
+export default Navbar;

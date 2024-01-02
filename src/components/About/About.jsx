@@ -7,6 +7,14 @@ import { Helmet } from 'react-helmet'
 const About = () => {
     return (
         <section className={style.container} id='about'>
+            <Helmet>
+                <title>About Page</title>
+                <meta name="description" content="LogIn-page" />
+                {/* Set the og:image specific to the About page */}
+                <meta property="og:image" content={getImageUrl('about/aboutOGImage.png')} />
+                {/* Other meta tags */}
+                <meta property="og:type" content="website" />
+            </Helmet>
             <h2 className={style.title}>About</h2>
             <div className={style.content}>
                 <img src={getImageUrl("about/aboutImage.png")} alt=" sitting with lap" className={style.aboutImage} />

@@ -8,7 +8,6 @@ const About = () => {
     return (
         <div>
             <Helmet>
-                {/* <meta name="description" content="About-Page" /> */}
                 <meta property="og:site_name" content="Sethu Portfolio About page" />
                 <meta property="og:title" content="Sethuyadav" />
                 <meta property="og:description" content="About sethu" />

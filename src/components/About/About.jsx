@@ -2,6 +2,8 @@ import React from 'react'
 import style from './About.module.css'
 import { getImageUrl } from '../../utils'
 
+import { Helmet } from 'react-helmet'
+
 const About = () => {
     return (
         <section className={style.container} id='about'>

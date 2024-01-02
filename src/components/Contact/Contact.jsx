@@ -2,10 +2,12 @@ import React from 'react'
 import Styles from './Contact.module.css'
 
 import { getImageUrl } from '../../utils'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
     return (
         <footer id='contact' className={Styles.container} >
+            
             <div className={Styles.text}>
                 <h2>Contact</h2>
                 <p>Feel free to reach out!</p>

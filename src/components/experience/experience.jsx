@@ -3,10 +3,12 @@ import React from 'react'
 import Style from './experience.module.css'
 import Skills from '../../data/skills.json';
 import { getImageUrl } from '../../utils';
+import { Helmet } from 'react-helmet'
 
 const Experience = () => {
     return (
         <section id='experience' className={Style.container}>
+           
             <h2 className={Style.title}>Skills</h2>
             <div className={Style.content}>
                 <div className={Style.skills}>

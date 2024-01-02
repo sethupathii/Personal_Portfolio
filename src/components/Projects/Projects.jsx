@@ -4,6 +4,7 @@ import styles from "./Projects.module.css";
 
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
+import { Helmet } from "react-helmet";
 
 export const Projects = () => {
   return (

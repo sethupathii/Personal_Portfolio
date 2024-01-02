@@ -7,7 +7,7 @@ import '@fontsource/roboto'
 // import Apps from './Delete.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+
     <App/>
-  </React.StrictMode>,
+ 
 )

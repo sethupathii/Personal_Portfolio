@@ -12,9 +12,9 @@ const About = () => {
                 <Helmet>
                     {/* <meta name="description" content="About-Page" /> */}
                     <meta property="og:site_name" content="Sethu Portfolio About page" />
-                    <meta property="og:title" content="Sethuyadav" />
+                    <meta property="og:title" content="Sethu" />
                     <meta property="og:description" content="About sethu" />
-                    <meta property="og:image" content="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" />
+                    <meta property="og:image" itemprop="ima" content="https://albion-backend.s3.ap-south-1.amazonaws.com/properties/1b8fe7e708e2f24168dcc5dfbe71e638.jpg" />
                     <meta property="og:type" content="website" />
                     <meta property="og:image:type" content="image/jpg" />
                     <meta property="og:image:width" content="300" />

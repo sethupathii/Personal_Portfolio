@@ -2,7 +2,8 @@ import React from 'react'
 import style from './About.module.css'
 import { getImageUrl } from '../../utils'
 
-import { Helmet } from 'react-helmet'
+// import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 
 const About = () => {
     return (

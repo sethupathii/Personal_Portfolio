@@ -10,7 +10,7 @@ const About = () => {
             <Helmet>
                 <meta name="description" content="LogIn-page" />
                 {/* Set the og:image specific to the About page */}
-                <meta property="og:image" content={getImageUrl('about/aboutOGImage.png')} />
+                <meta property="og:image" content="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" />
                 {/* Other meta tags */}
                 <meta property="og:type" content="website" />
             </Helmet>

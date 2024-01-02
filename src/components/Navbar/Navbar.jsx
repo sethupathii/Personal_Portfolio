@@ -68,6 +68,7 @@ const Navbar = () => {
 
         // Update OG image meta tag
         const ogImageTag = document.querySelector('meta[property="og:image"]');
+        console.log(ogImageTag);
         if (ogImageTag) {
             ogImageTag.setAttribute('content', metaImg);
         } else {

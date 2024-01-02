@@ -9,7 +9,7 @@ const About = () => {
     return (
       
             <section className={style.container} id='about'>
-                <Helmet>
+                {/* <Helmet> */}
                     {/* <meta name="description" content="About-Page" /> */}
                     {/* <meta property="og:site_name" content="Sethu Portfolio About page" />
                     <meta property="og:title" content="Sethu" />
@@ -20,7 +20,7 @@ const About = () => {
                     <meta property="og:image:width" content="300" />
                     <meta property="og:image:height" content="300" />
                     <meta property="og:url" content="https://main--bucolic-crisp-4bfe2d.netlify.app/#about" /> */}
-                </Helmet>
+                {/* </Helmet> */}
                 <h2 className={style.title}>About</h2>
                 <div className={style.content}>
                     <img src={getImageUrl("about/aboutImage.png")} alt=" sitting with lap" className={style.aboutImage} />

@@ -7,9 +7,6 @@ import { Helmet } from 'react-helmet'
 const Contact = () => {
     return (
         <footer id='contact' className={Styles.container} >
-            <Helmet>
-                <meta property="og:image" content="https://albion-backend.s3.ap-south-1.amazonaws.com/properties/1b8fe7e708e2f24168dcc5dfbe71e638.jpg" />
-            </Helmet>
             <div className={Styles.text}>
                 <h2>Contact</h2>
                 <p>Feel free to reach out!</p>

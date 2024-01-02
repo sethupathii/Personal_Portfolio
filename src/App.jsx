@@ -17,8 +17,8 @@ function App() {
           {/* Set default OG tags */}
           <title>SethuPathi M - Home</title>
           <meta property="og:title" content="SethuPathi M - Home" />
-          <meta property="og:description" content="Your default description" />
-          <meta property="og:image" content="URL_TO_DEFAULT_OG_IMAGE" />
+          <meta property="og:description" content="SEthu" />
+          <meta property="og:image" content="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" />
           {/* Other meta tags */}
           {/* ... */}
         </Helmet>

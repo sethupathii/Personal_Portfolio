@@ -8,7 +8,6 @@ const About = () => {
     return (
         <section className={style.container} id='about'>
             <Helmet>
-                <title>About Page</title>
                 <meta name="description" content="LogIn-page" />
                 {/* Set the og:image specific to the About page */}
                 <meta property="og:image" content={getImageUrl('about/aboutOGImage.png')} />
